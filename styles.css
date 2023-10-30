@@ -1,0 +1,146 @@
+body {
+    background-image: url("images/jackson-sophat-_t-l5FFH8VA-unsplash.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 60px;
+    position: fixed;
+    width: 100%;
+    background-color: #D6A5DC;
+    background: linear-gradient(90deg,#D2B4EA,#CDCCF8);
+    align-items: center;
+}
+.nav-bar ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+.headerdiv {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+#about {
+    display: flex;
+    gap: 50px;
+    font-size: 18px;
+    color: #f9faf8;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #1F293775;
+    align-items: center;
+    padding-top: 70px;
+  }
+
+  #image1 {
+    width: 600px;
+    height: auto;
+    max-width: 100%;
+  }
+  #image2 {
+    width: 350px;
+    height: auto;
+  }
+  #image3 {
+    width: 350px;
+    height: auto;
+  }
+  #image4 {
+    width: 350px;
+    height: auto;
+  }
+button {
+    font-size: 28px;
+    font-synthesis-weight: 500;
+    color: #1F2937;
+    background-color: #2882f6;
+    border: none;
+    border-radius: 7%;
+    padding: 5px 15px;
+}
+#curriculum {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 50px 0;
+    background-color: rgb(255, 255, 255, .5);
+}
+.bottom {
+    max-width: 300px;
+    font-size: 18px;
+}
+.top {
+    text-align: center;
+    font-size: 36px;
+}
+.about h1 {
+    max-width: 400px;
+}
+.about p {
+    max-width: 400px;
+}
+#quote {
+    font-size: 28px;
+    font-weight: lighter;
+    font-style: italic;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 100px 450px;
+}
+.quotep {
+    text-align: end;
+    font-style: none;
+    min-width: 300px;
+}
+#signup {
+    background-color: white;
+    padding: 100px 150px;
+}
+.action {
+    padding: 50px 200px;
+    background-color: #2882f6;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    border-radius: 1%;
+}
+.button {
+    border: 1px solid white;
+    height: fit-content;
+}
+.action h2 {
+    margin-bottom: 5px;
+}
+footer {
+    background-color: #1F2937;
+    color: #f9faf8;
+    text-align: center;
+    padding: 20px 0;
+}
+ul {
+    
+}
+a {
+    text-decoration: none;
+    counter-reset: inherit;
+}
+a:visited {
+    color: inherit;
+}
+.nav-bar {
+    padding-right: 20px;
+}
